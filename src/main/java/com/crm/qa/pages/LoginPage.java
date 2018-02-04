@@ -24,7 +24,7 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//button[contains(text(),'Sign Up')]")
 	WebElement signUpButton;
 	
-	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/a[1]/img[1]")
+	@FindBy(xpath="//a[@class='navbar-brand']//img[@class='img-responsive']")
 	WebElement logo;
 			
 	//initializing the page objects

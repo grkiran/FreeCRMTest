@@ -11,7 +11,7 @@ import com.crm.qa.util.TestUtil;
 
 public class HomePage extends TestBase {
 
-	@FindBy(css = "td.headertable table:nth-child(1) tbody:nth-child(1) tr:nth-child(1) > td.headertext:nth-child(1)")
+	@FindBy(xpath="//td[contains(text(),'User: Naveen K')]")
 	WebElement userNameLable;
 
 	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
