@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReportListner.ExtentReportListner"/>
+  </listeners>
+  <test name="TestCRM(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyContactsLableTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- TestCRM(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
