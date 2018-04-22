@@ -36,7 +36,7 @@ public class TestBase {
 	}
 	
 
-	public void initialization() {
+	public void  initialization() {
 	//	String browser = pro.getProperty("browser"); 
 		//switch (browser) {
 	//	case "ff":
