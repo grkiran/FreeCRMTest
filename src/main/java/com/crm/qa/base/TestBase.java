@@ -18,9 +18,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.crm.qa.util.TestUtil;
 
 
-//Added comment	
-
-
 public class TestBase {
 
 	public static WebDriver driver;
@@ -39,7 +36,7 @@ public class TestBase {
 		}
 	}
 	
-
+//this code is for selection of browser
 	public void  initialization() {
 	//	String browser = pro.getProperty("browser"); 
 		//switch (browser) {
@@ -68,7 +65,6 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-
 		String url = pro.getProperty("url");
 		driver.get(url);
 		
