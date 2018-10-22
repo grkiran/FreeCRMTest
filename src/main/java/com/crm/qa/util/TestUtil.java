@@ -23,6 +23,7 @@ public class TestUtil extends TestBase {
 
 	public void switchToFrame() {
 		driver.switchTo().frame("mainpanel");
+		
 	}
 
 	public static String[][] getDataFromExcel() throws BiffException, IOException {

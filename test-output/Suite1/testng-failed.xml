@@ -6,6 +6,20 @@
   </listeners>
   <test name="TestCRM(failed)">
     <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="loginPageTitle"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="setUp"/>
