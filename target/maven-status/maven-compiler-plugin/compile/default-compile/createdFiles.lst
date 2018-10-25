@@ -1,5 +1,6 @@
 com\crm\qa\pages\ContactsPage.class
 com\crm\qa\pages\DealsPage.class
+com\crm\qa\database\Database.class
 com\crm\qa\base\TestBase.class
 com\crm\qa\pages\HomePage.class
 com\crm\qa\pages\TasksPage.class

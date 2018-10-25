@@ -47,7 +47,7 @@ public class TestBase {
 	//		break;
 
 	//	case "chrome":
-			System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver1.exe");
 			driver = new ChromeDriver();
 		//	break;
 
